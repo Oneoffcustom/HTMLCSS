@@ -1,0 +1,71 @@
+
+
+
+/* style.css */
+
+body {
+	background-image: url("bike.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:  white;
+	
+	text-align: center;
+	font-size: 21px;
+	font-family: script;
+	
+	
+	
+	
+}
+
+
+	
+
+h1 {
+	color: red;
+	-webkit-text-stroke: 1px yellow;
+	text-align: center;
+	font: italic 200% fantasy;
+	
+} 
+p {
+	background-color: rgba(255, 165, 0, 0.43);
+	text-align: center;
+	border: none;
+	margin-bottom:50px;
+	margin-left:375px;
+	margin-right:375px;
+	margin-top:50px;
+}
+p2 {
+		background-color: rgba(255, 165, 0, 0.43);
+	text-align: center;
+	border: none;
+	margin-bottom:50px;
+	margin-left:375px;
+	margin-right:375px;
+	margin-top:50px;
+}
+h2 {
+	color: red;
+	text-align: center;
+	font: underline 100% script;
+	text-shadow: 2px 2px 1px yellow;
+}
+h3 {
+	color: YELLOW;
+	text-align: center;
+	font: 100% sand script;
+	text-shadow: 5px 5px 3px black;
+}
+<style type ="text/css"> @keyframes anim { 0% {left: 0px; top: 0px;} 25%
+	{left:100px; top:0px;} 50% {left: 100px; top: 100px;} 75% {left: 0px;
+	top: 100px;} 100% {left: 0px; top: 0px;} } @-webkit-keyframes anim { 0%
+	{left: 0px; top: 0px;} 25% {left: 100px; top: 0px;} 50% {left: 100px;
+	top: 100px;} 75% {left: 0px; top: 100px;} 100% {left: 0px; top: 0px;}
+	100% {left: 0px; top: 0px;} } @-o-keyframes anim { 0% {left: 0px;} 75%
+	{left: 0px; top: 100px;} 100% {left: 0px; top: 0px;} } #box { position:
+	absolute; border: 2px solid orange; -webkit-animation: -0-animation: anim 5s linear
+	infinite; -moz-animation: anim 5s linear infinite; -o-animation: anim
+	5s linear infinite; animation: anim 5s linear infinite; color: red; }
+</style>
